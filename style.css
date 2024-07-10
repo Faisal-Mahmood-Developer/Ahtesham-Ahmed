@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(8, 9, 9);
+    color: white;
+}
+.demo {
+
+    color: rgb(221,76,76);
+    text-decoration: none;
+}
+
+.demo1 {
+    color: rgb(221,76,76);
+}
+
+i {
+    color: rgb(221,76,76);
+    font-size: 20px;
+}
+
+li a:hover {
+    border-bottom: 3px solid rgb(221,76,76);
+}
+
+.myForm{
+    background-color: rgb(33, 37, 41);
+    border-bottom: 2px solid rgb(221,76,76);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    color: white;
+}
+
+.parallax{
+    background-image: url('./image/machine2.jpg');
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    color: red;
+}
+::placeholder {
+    color: white;
+    
+  }
+  
+  .btn{
+    background-color: rgb(221,76,76);
+    color: white;
+  }
+
+  .btn:hover{
+    background-color: white;
+    border: 3px solid red;
+    color: black;
+  }
